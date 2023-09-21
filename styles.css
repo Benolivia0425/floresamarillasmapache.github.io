@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: Arial Black, sans-serif;
+    background-color: #222; /* Fondo negro */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Texto gris oscuro */
+}
+
+header {
+    background-color: #000; /* Negro */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffcc00; /* Amarillo */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#flower-design {
+    margin-top: 20px;
+}
+
+#turtleCanvas {
+    border: 2px solid #ffcc00; /* Borde amarillo para el canvas */
+}
+
+#message {
+    background-color: #ccffcc; /* Verde pastel complementario */
+    border: 1px solid #99cc99; /* Borde verde pastel más oscuro */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #333; /* Texto gris oscuro */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666; /* Texto gris más oscuro */
+}
